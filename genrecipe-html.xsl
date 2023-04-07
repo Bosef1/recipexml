@@ -6,7 +6,8 @@
   <head><title><xsl:value-of select="recipe/title"/></title>
   </head>
   <body>
-    <p><xsl:value-of select="recipe/title"/>
+    <p><xsl:value-of select="recipe/title"/></p>
+    <p?<xsl:value-of select="recipe/notes"/></p>
   </body>
 </html>
 </xsl:template>
